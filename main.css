@@ -1,0 +1,130 @@
+/* Header */
+
+header{
+    background: #0A1828;
+    height: 40px;
+    margin-bottom: 2%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.navMain{
+    z-index: 999;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0A1828;
+}
+
+.navbar-brand{
+    font-size: 300%;
+    font-family: 'Serif', 'Times New Roman';
+    font-weight: bold;
+    color: #ffffff;
+    border-top: 1px solid #ffffff; /* add this line */
+    border-bottom: 1px solid #ffffff; /* add this line */
+}
+
+.nav-item{
+    background-color: #0A1828;
+    color: #178582;
+    font-size: 150%;
+    margin: 10%;
+    transition: background-color 2s ease-out 100ms
+}
+
+.nav-item:hover{
+    color: white;
+    text-decoration: unset;
+    cursor:pointer;
+}
+
+.navbar-brand-centered{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navRight{
+    float: right;
+}
+
+.navLeft{
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+}
+
+
+/* Body */
+
+
+body{
+    color: #b98f63;
+    background-color: #0A1828;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.purple-bg {
+    background-color: #d690ed;
+    color: rgb(68, 0, 64);
+}
+
+li{
+    margin: 1%;
+}
+.aboutMe{
+    height: 70%;
+    border-radius: 10%;
+    background-color: #0A1828;
+    color: #ffffff;
+    font-size: 1300%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.resumeB1{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 25%;
+    background-color: transparent;
+    border-radius: 10%;
+    border-color: #b98f63;
+    color:#b98f63;
+    max-height: 70%;
+}
+
+.pic1{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10%;
+}
+.margind1{
+    font-family: serif;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.nav-item:hover{
+    color: white;
+    text-decoration: unset;
+}
