@@ -1,0 +1,4 @@
+entry point 
+cards showing affiliations (github, linkedin, etc)
+two big cards showing projects
+education work experience
