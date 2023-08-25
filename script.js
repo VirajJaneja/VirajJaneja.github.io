@@ -1,6 +1,7 @@
 const leftButton = document.querySelector('.left-button');
 const rightButton = document.querySelector('.right-button');
 const cardPanel = document.querySelector('.card-panel');
+const resumeButton = document.querySelector('.resume-button')
 
 let scrollPosition = 0;
 
@@ -25,3 +26,12 @@ rightButton.addEventListener('click', () => {
 function updateScrollPosition() {
   cardPanel.style.transform = `translateX(${scrollPosition}px)`;
 }
+
+resumeButton.addEventListener('mouseover', () => {
+    console.log("Hovered over the button");
+
+    
+  });
+
+
+  
