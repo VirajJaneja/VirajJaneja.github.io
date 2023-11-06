@@ -24,7 +24,6 @@ header{
     font-weight: bold;
     color: #ffffff;
     border-top: 1px solid #ffffff; /* add this line */
-    border-bottom: 1px solid #ffffff; /* add this line */
 }
 
 .nav-item{
@@ -190,6 +189,13 @@ li{
 
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .resume-Update-Text{
+    font-family: serif;
+    align-items: center;
+    font-size: 16px;
+    color: #b98f63
   }
 
 /* 
