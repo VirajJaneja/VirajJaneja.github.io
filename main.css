@@ -233,3 +233,81 @@ li{
 
 /* ---------------------TIMELINE CODE---------------------- */
 
+.WEtitle{
+  font-family: serif;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-self: center;
+  justify-self: center;
+  font-size: 250%;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #caaa82;
+  margin-left: -1px;
+}
+
+.dot {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 1200%);
+  width: 12px;
+  height: 12px;
+  background-color: #caaa82;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  max-width: 400px;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: 55%;
+  margin-right: 0;
+}
+
+.timeline-item:nth-child(odd){
+  margin-left: -55%;
+  margin-right: 0;
+}
+
+.timeline-content {
+  margin: 0;
+}
+
+
+
+/* ------------Contact Me--------------- */
+/* .about-me-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border-width: 100px;
+  border-color: #caaa82;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
