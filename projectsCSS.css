@@ -32,6 +32,40 @@ font-size: 1.2rem;
 margin-top: 1rem;
 text-align: center;
 }
+.card-title-projects {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    text-align: center;
+    }
+.card-text{
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color:#7e6143;
+}
+
+.project-go {
+    width: 100%;
+    padding: 1.5% 3%;
+    background-color: #0A1828;
+    border-radius: 15px;
+    border-color: #b98f63;
+    font-size: 110%;
+    color: #b98f63;
+    background-color: solid;
+    text-align: center;
+    cursor:crosshair;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.project-go:hover {
+    background-color: #caaa82;
+    transform: scale(1.05);
+    color:#0A1828;
+  }
+
 .download-button {
 display: inline-block;
 padding: 0.5rem 1rem;
